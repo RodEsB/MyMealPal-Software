@@ -12,6 +12,7 @@ import Vision
 import SceneKit
 import ARKit
 
+//model view
 struct FoodModelView: View {
     @ObservedObject var modelData: ModelData = .shared
     let data = TestData()
