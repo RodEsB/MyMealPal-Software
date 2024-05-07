@@ -77,7 +77,8 @@ struct HomeView: View {
 struct QuickAddFrame: View {
     let dWidth: Double
     let dHeight: Double
-    
+
+    //agregue mejor vista
     var body: some View {
         Rectangle()
             .fill(Color.green)
